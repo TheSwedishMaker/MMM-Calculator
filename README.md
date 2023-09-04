@@ -16,3 +16,9 @@ Add the following to your config.js
   }
 },
 ```
+Add an image to your MMM-Calculator folder and name it calc.png or 
+rename the image in MMM-Calculator.js 
+
+This module uses another module to hide all other modules when run. Get it 
+here: https://github.com/TheSwedishMaker/MMM-ModuleController 
+
