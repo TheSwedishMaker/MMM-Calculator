@@ -1,0 +1,73 @@
+/* Container */
+#calculator {
+  width: 600px;  /* Adjust as needed */
+  height: 400px;  /* Adjust as needed */
+  margin-top: auto;
+  margin-bottom: auto;
+}
+#calculator-container {  /* A new container div that wraps around #calculator */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;  /* assuming it takes up the full viewport height */
+}
+
+#toggle-img {
+  position: fixed;
+  bottom: 30px;
+  right: 150px;
+  z-index: 1000;  /* Ensure it appears above other elements */
+  width: 100px;  /* Optional: Set to your desired width */
+  height: 100px;  /* Optional: Set to your desired height */
+  cursor: pointer;  /* Indicates the image is clickable */
+  background-color: transparent;
+}
+
+
+/* Calculator buttons */
+.button  {
+  width: 130px;  /* Adjust as needed */
+  height: 100px;  /* Adjust as needed */
+  font-size: 24px;  /* Adjust as needed */
+  margin: 20px; 
+}
+
+#display {
+  border: 0; !important;
+  padding: 20px; 
+  height: 40px;  /* Adjust as needed */
+  font-size: 32px;  /* Adjust as needed */
+  text-align: right; 
+  width: 80%;
+  padding: 10px;
+  margin: 10px 20px;
+  font-size: 20px;
+  color: white;
+  background-color: black;
+}
+#MMM-Calculator #display {
+  border: none !important;
+  padding: 20px;
+  margin: 20px; 
+}
+
+
+.hidden {
+  display: none;
+}
+
+.button-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 25px;
+}
+
+.calc-button {
+  padding: 23px 23px;
+  font-size: 18px;
+  border: 1px solid white;
+  background-color: black;
+  color: white;
+}
+
+
