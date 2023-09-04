@@ -6,6 +6,7 @@ git clone https://github.com/theswedishmaker/MMM-Calculator
 
 Add the following to your config.js 
 
+```bash
 {
   module: "MMM-Calculator",
   position: "bottom_right", // This can be any of the regions
@@ -13,3 +14,4 @@ Add the following to your config.js
     // See 'Configuration options' for more information.
   }
 },
+```
