@@ -1,5 +1,6 @@
 # MMM-Calculator
-A simple calculator for the MagicMirror on a touch display 
+A simple calculator for the MagicMirror on a touch display. The module shows
+a button to be clicked and takes you to a new view with a calculator. 
 
 Simply clone the repo
 git clone https://github.com/TheSwedishMaker/MMM-Calculator 
