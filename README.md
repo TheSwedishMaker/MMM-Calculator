@@ -3,8 +3,9 @@ A simple calculator for the MagicMirror on a touch display. The module shows
 a button to be clicked and takes you to a new view with a calculator. 
 
 Simply clone the repo
+```bash
 git clone https://github.com/TheSwedishMaker/MMM-Calculator 
-
+```
 Add the following to your config.js 
 
 ```bash
