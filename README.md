@@ -2,7 +2,7 @@
 A simple calculator for the MagicMirror on a touch display 
 
 Simply clone the repo
-git clone https://github.com/theswedishmaker/MMM-Calculator 
+git clone https://github.com/TheSwedishMaker/MMM-Calculator 
 
 Add the following to your config.js 
 
